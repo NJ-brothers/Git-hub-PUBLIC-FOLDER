@@ -1,6 +1,6 @@
 const display1 = document.getElementById("display");
 
-function apppendToDisplay(input) {
+function appendToDisplay(input) {
     display1.value += input;
 
 }
@@ -12,5 +12,5 @@ function clearDisplay(input) {
 
 function calculate(input) {
     display1.value = eval(display1.value);
-
+    
 }
