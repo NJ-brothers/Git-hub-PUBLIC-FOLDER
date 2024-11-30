@@ -1,4 +1,5 @@
 const display1 = document.getElementById("display");
+const condition1 = document.getElementById("calculate");
 
 function appendToDisplay(input) {
     display1.value += input;
@@ -12,5 +13,5 @@ function clearDisplay(input) {
 
 function calculate(input) {
     display1.value = eval(display1.value);
-    
+
 }
