@@ -1,4 +1,4 @@
-const name = document.getElementById("input3");
+const firstname = document.getElementById("input3");
 const surname = document.getElementById("input4");
 const emailaddress = document.getElementById("input1");
 const password = document.getElementById("input2");
@@ -9,7 +9,7 @@ buton1.addEventListener("click",event=>{
     checkemail();
     checkpass();
     username();
-    username2(surname);
+    username2();
 
 });
 
@@ -39,10 +39,10 @@ function checkpass() {
 }
 
 function username() {
-    console.log(name);
+    console.log(firstname.value);
 
 }
 
 function username2() {
-    console.log(surname);
+    console.log(surname.value);
 }
