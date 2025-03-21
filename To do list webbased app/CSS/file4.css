@@ -1,0 +1,111 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-image: url("../pexels-photo-1888009.webp");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 10rem;
+    font-weight: normal;
+    color: yellow;
+}
+
+h2 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: yellow;
+    font-size: 5rem;
+}
+
+p,
+input,
+input::placeholder,
+button, 
+span {
+    color: white;
+    font-size: 1.8rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+span {
+    font-size: 1.4rem;
+}
+
+button {
+    background: transparent;
+    border: 1px solid yellow;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.15s ease-in-out;
+}
+
+button:hover {
+    background-color: white;
+    color: yellow;
+}
+
+.yellow {
+    color: yellow;
+}
+
+.yellow:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+h1.title {
+    text-align: center;
+    margin: 0.5em 0;
+}
+
+section.sign-up > .wrapper {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    backdrop-filter: blur(10px);
+    padding: 0em 7em 5em 7em;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.527);
+    border: 1px solid yellow;
+    border-radius: 10px;
+}
+
+section.sign-up > .wrapper > h2 {
+    margin-bottom: 1em;
+}
+
+section.sign-up > .wrapper > input {
+    display: block;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid yellow;
+    text-align: center;
+    padding: 0.5em 1em;
+}
+
+section.sign-up > .wrapper > input:first-of-type {
+    margin-bottom: 2em;
+}
+
+section.sign-up > .wrapper > button {
+    padding: 0.5em 4em;
+}
+
+section.sign-up > .wrapper > span {
+    margin: 1.5em 0;
+}
