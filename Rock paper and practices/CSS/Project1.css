@@ -1,0 +1,45 @@
+.youtubepara1 {
+    color: white;
+    background-color: red;
+    height: 30px;
+    width: 400px;
+    text-align: center;
+    font-size: large;
+    padding-top: 10px;
+
+}
+
+.youtube-btn1 {
+    margin-left: 120px;
+    border-radius: 20px;
+    padding: 10px 30px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: white;
+
+}
+
+.amazon-para1 {
+    margin-top: 100px;
+
+
+}
+
+/*.amazon-para2 {}
+.amazon-para3 {}*/
+
+.inp1 {
+    height: 30px;
+    width: 200px;
+    padding-left: 100px;
+    
+}
+
+.inp-btn {
+    padding: 10px 20px;
+    background-color: green;
+    border: none;
+    color: white;
+    cursor: pointer;
+
+}
